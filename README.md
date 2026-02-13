@@ -30,6 +30,7 @@ El prototipo incluye también:
 - Figma (Diseño y prototipado)
 [Figma BeerGym](https://www.figma.com/design/bLl2HtdocRmVYsgVFTM0Oh/Media-Query---Gym?node-id=0-1&t=pfeiJV0bDXlL83L3-1)
 
+
 ## Diagrama casos de uso
 
 ![Diagrama casos de uso](https://cdn.discordapp.com/attachments/886318176881741847/1471615129442451487/image.png?ex=698f93e4&is=698e4264&hm=e6a9964a4353d058c135c41239dbba5dee1a9c1a88a689084a0207eb04212e16&)
