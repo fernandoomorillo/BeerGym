@@ -9,10 +9,13 @@ La página principal está formada por:
 
 
 Al pulsar el logo, el usuario va a una página principal que incluye una barra de navegación con las siguientes opciones:
--Quiénes Somos
--Dónde Encontrarnos
--Planes de Suscripción
--Botón para Registrarse / Iniciar sesión
+- Quiénes Somos
+
+- Dónde Encontrarnos
+
+- Planes de Suscripción
+
+- Botón para Registrarse / Iniciar sesión
 
 
 El prototipo incluye también:
