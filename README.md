@@ -3,9 +3,9 @@
 
 Hemos hecho un figma simulando la página web 
 La página principal está formada por:
--Un logo del gimnasio
--Las redes sociales
--Un icono de accesibilidad que despliega un mini menú con opciones de accesibilidad
+- Un logo del gimnasio
+- Las redes sociales
+- Un icono de accesibilidad que despliega un mini menú con opciones de accesibilidad
 
 
 Al pulsar el logo, el usuario va a una página principal que incluye una barra de navegación con las siguientes opciones:
