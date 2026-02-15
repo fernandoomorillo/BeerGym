@@ -29,6 +29,7 @@ El prototipo incluye también:
 
 - Figma (Diseño y prototipado)
 [Figma BeerGym](https://www.figma.com/design/bLl2HtdocRmVYsgVFTM0Oh/Media-Query---Gym?node-id=0-1&t=pfeiJV0bDXlL83L3-1)
+- Visual Studio Code (HTML y CSS)
 
 
 ## Diagrama casos de uso
