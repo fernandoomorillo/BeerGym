@@ -189,3 +189,219 @@ footer{
     text-align: center;
     padding: 10px 0;
 }
+
+
+@media (max-width: 768px) {
+    header {
+        position: static;
+        padding: 10px 0;
+    }
+
+    #contenedor {
+        grid-template-columns: 1fr;
+        gap: 5%;
+        padding: 10px 5px;
+    }
+
+    .caja1, .caja2, .caja3, .caja4, .caja5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 5px 0;
+    }
+
+    button {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .Titulo {
+        font-size: 1.5em;
+        margin-top: 5%;
+    }
+
+    #Quienessomos {
+        font-size: 0.9em;
+        padding: 2% 5% 5% 5%;
+        margin-top: 0;
+    }
+
+    #contenedor2 {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        width: 100%;
+        gap: 5%;
+        padding: 5%;
+    }
+
+    #ubicaciones {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 10px 0;
+        padding: 3%;
+    }
+
+    #ubicaciones2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding: 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    #planes-container {
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
+
+    .plan {
+        padding: 3%;
+    }
+
+    #planes h1 {
+        font-size: 1.3em;
+    }
+
+    .ubicacion-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .boton {
+        width: 100%;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+}
+
+/* Teléfonos muy pequeños (hasta 480px) */
+@media (max-width: 480px) {
+    header {
+        position: static;
+        font-size: 0.7em;
+        padding: 5px 0;
+    }
+
+    #contenedor {
+        grid-template-columns: 1fr;
+        gap: 3%;
+        padding: 5px 2px;
+    }
+
+    .caja1 img {
+        width: 40px;
+        height: auto;
+    }
+
+    button {
+        padding: 7px 10px;
+        font-size: 0.8em;
+    }
+
+    .Titulo {
+        font-size: 1.2em;
+        margin-top: 10%;
+        padding: 5% 0;
+    }
+
+    #Quienessomos {
+        font-size: 0.8em;
+        padding: 5% 3% 5% 3%;
+        line-height: 1.5;
+    }
+
+    #descripcion {
+        margin-bottom: 5%;
+    }
+
+    #contenedor2 {
+        padding: 3%;
+        gap: 3%;
+    }
+
+    #ubicaciones {
+        padding: 2%;
+        margin: 5px 0;
+    }
+
+    #ubicacion h1 {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    .ubicacion-item {
+        margin-bottom: 15px;
+        font-size: 0.85em;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    #planes {
+        padding: 3%;
+    }
+
+    #planes h1 {
+        font-size: 1.1em;
+        margin-bottom: 3%;
+    }
+
+    #planes-container {
+        gap: 1%;
+    }
+
+    .plan {
+        padding: 2%;
+    }
+
+    .plan h2 {
+        font-size: 1em;
+        margin: 5px 0;
+    }
+
+    .plan p {
+        font-size: 0.85em;
+        margin: 3px 0;
+    }
+
+    footer {
+        padding: 5px 0;
+        font-size: 0.8em;
+    }
+
+    footer p {
+        margin: 0;
+    }
+}
+
+/* Orientación horizontal en dispositivos pequeños */
+@media (max-width: 768px) and (orientation: landscape) {
+    header {
+        padding: 5px 0;
+    }
+
+    #contenedor {
+        gap: 3%;
+    }
+
+    .Titulo {
+        margin-top: 2%;
+    }
+
+    #Quienessomos {
+        padding: 2% 5%;
+        font-size: 0.8em;
+    }
+
+    #planes-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
