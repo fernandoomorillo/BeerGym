@@ -15,6 +15,7 @@ header {
     justify-content: center;
     font-weight: bold;
     font-size: 0.8em;
+    text-align: center;
 }
 
 #contenedor {
@@ -34,7 +35,9 @@ header {
     align-items: center;
 }
 
-.caja2, .caja3, .caja4 {
+.caja2,
+.caja3,
+.caja4 {
     grid-column-end: auto;
 }
 
@@ -173,6 +176,7 @@ iframe {
     padding: 5%;
     border-radius: 20px;
     text-align: center;
+    background-color: #FFFFFF33;
 }
 
 #descripcion {
@@ -183,7 +187,7 @@ iframe {
     font-size: x-large;
 }
 
-footer{
+footer {
     color: white;
     background-color: black;
     text-align: center;
@@ -204,7 +208,11 @@ footer{
         padding: 10px 5px;
     }
 
-    .caja1, .caja2, .caja3, .caja4, .caja5 {
+    .caja1,
+    .caja2,
+    .caja3,
+    .caja4,
+    .caja5 {
         grid-column-start: 1;
         grid-column-end: 2;
         margin: 5px 0;
