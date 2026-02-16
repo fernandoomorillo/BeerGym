@@ -1,0 +1,331 @@
+/* Html Beergym */
+.body-Beergym {
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.logo-grande img {
+    max-width: 600px;
+    width: 80%;
+}
+
+.linea {
+    width: 70%;
+    height: 1px;
+    background: #2f8f97;
+    margin: 40px 0;
+}
+
+.iconos {
+    display: flex;
+    gap: 40px;
+}
+
+.icono {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono img {
+    width: 28px;
+    height: 28px;
+}
+
+
+
+/* Html Login */
+.body-Login {
+    margin: 0;
+    background-image: url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-bar {
+    height: 60px;
+    background: #0095A7;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-top {
+    height: 40px;
+}
+
+.overlay_menu {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 1;
+}
+
+.caja_login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #cfcfcf;
+    padding: 45px 40px;
+    width: 360px;
+    border-radius: 16px;
+    text-align: center;
+    z-index: 2;
+}
+
+.logo-beergym {
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    width: 100%;
+    padding: 16px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.boton:hover {
+    background: #0095A7;
+}
+
+
+/* Html Iniciar Sesion */
+.body-IniciarSesion {
+    margin: 0;
+    background-image: url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-bar {
+    height: 60px;
+    background: #0095A7;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-top {
+    height: 42px;
+}
+
+.overlay_menu {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 1;
+}
+
+.caja_login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #cfcfcf;
+    padding: 40px;
+    width: 380px;
+    border-radius: 18px;
+    text-align: center;
+    z-index: 2;
+}
+
+.logo-beergym {
+    width: 170px;
+    margin-bottom: 25px;
+}
+
+.input-login {
+    width: 100%;
+    padding: 14px 18px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    outline: none;
+}
+
+.boton {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #0095A7;
+}
+
+
+/* Html Registrarse */
+.body-Registrarse {
+    margin: 0;
+    background-image: url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-bar {
+    height: 60px;
+    background: #0095A7;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-top {
+    height: 42px;
+}
+
+.overlay_menu {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 1;
+}
+
+.caja_login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #cfcfcf;
+    padding: 40px;
+    width: 380px;
+    border-radius: 18px;
+    text-align: center;
+    z-index: 2;
+}
+
+.logo-beergym {
+    width: 170px;
+    margin-bottom: 25px;
+}
+
+.input-login {
+    width: 100%;
+    padding: 14px 18px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    outline: none;
+}
+
+.boton {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #0095A7;
+}
+
+
+
+/* Html Rutinas */
+.body-Rutinas {
+ margin: 0;
+    background-image: url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-bar {
+    width: 100%;
+    height: 80px;
+    background: #00a3ad;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo-top {
+    height: 55px;
+}
+
+.titulo {
+    width: fit-content;
+    margin: 40px auto 30px auto;
+    background: #fff;
+    padding: 12px 60px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #bfbfbf;
+    border-radius: 20px;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.bloque {
+    background: #fff;
+    border-radius: 40px;
+    padding: 18px 35px;
+    text-align: center;
+}
+
+.dia {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.texto {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}

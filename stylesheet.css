@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-color: #0095A7;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#contenedor {
+    display: grid;
+    gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.caja1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.caja3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.caja4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.caja5 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #B2DFE5;
+    margin-left: 15px;
+}
+
+#Quienessomos {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 2% 5% 0% 5%;
+    color: white;
+    background-color: black;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('resources/gimnasio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Titulo {
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+}
+
+#contenedor2 {
+    display: grid;
+    gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    width: calc(100% + 1%);
+    margin-left: -5.5%;
+    align-items: center;
+    padding: 5% 5%;
+    background-color: #0B5D6733;
+}
+
+#ubicaciones {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #B2DFE5;
+    padding: 5%;
+    color: #000000;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 20px;
+}
+
+#ubicaciones2 {
+    padding: 5%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+#ubicacion {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#ubicacion h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.ubicacion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.ubicacion-item p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.boton {
+    border-radius: 5px;
+    background-color: #3E9099;
+}
+
+#planes {
+    background-color: #0B5D67;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5%;
+}
+
+#planes h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#planes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    width: 100%;
+}
+
+.plan {
+    padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#descripcion{
+    margin-bottom: 4%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
