@@ -65,7 +65,7 @@ button {
     margin-left: 15px;
 }
 
-#Quienessomos {
+#main-content {
     text-align: justify;
     font-size: large;
     padding: 2% 5% 0% 5%;
@@ -221,7 +221,7 @@ footer{
         margin-top: 5%;
     }
 
-    #Quienessomos {
+    #main-content {
         font-size: 0.9em;
         padding: 2% 5% 5% 5%;
         margin-top: 0;
@@ -311,7 +311,7 @@ footer{
         padding: 5% 0;
     }
 
-    #Quienessomos {
+    #main-content {
         font-size: 0.8em;
         padding: 5% 3% 5% 3%;
         line-height: 1.5;
@@ -397,7 +397,7 @@ footer{
         margin-top: 2%;
     }
 
-    #Quienessomos {
+    #main-content {
         padding: 2% 5%;
         font-size: 0.8em;
     }
