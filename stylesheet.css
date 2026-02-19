@@ -27,37 +27,6 @@ header {
     padding: 3px 10px;
 }
 
-.caja1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.caja2,
-.caja3,
-.caja4 {
-    grid-column-end: auto;
-}
-
-.caja2 {
-    grid-column-start: 2;
-}
-
-.caja3 {
-    grid-column-start: 3;
-}
-
-.caja4 {
-    grid-column-start: 4;
-}
-
-.caja5 {
-    grid-column-start: 5;
-    grid-column-end: 6;
-}
-
 button {
     font-weight: bold;
     border: none;
@@ -66,21 +35,6 @@ button {
     cursor: pointer;
     background-color: #B2DFE5;
     margin-left: 15px;
-}
-
-#main-content {
-    text-align: justify;
-    font-size: large;
-    padding: 2% 5% 0% 5%;
-    color: white;
-    background-color: black;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url('resources/gimnasio.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .Titulo {
@@ -95,11 +49,15 @@ button {
     display: grid;
     gap: 10%;
     grid-template-columns: 1fr 1fr;
-    width: calc(100% + 1%);
-    margin-left: -5.5%;
     align-items: center;
     padding: 5% 5%;
-    background-color: #0B5D6733;
+    background-image:
+        linear-gradient( rgba(0, 0, 0, 1), rgba(11, 93, 103, 0.8)),
+        url('resources/gimnasio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #ubicaciones {
@@ -156,6 +114,18 @@ iframe {
 }
 
 #planes {
+    text-align: justify;
+    font-size: large;
+    padding: 2% 5% 0% 5%;
+    color: white;
+    background-color: black;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
+        url('resources/gimnasio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     padding: 5%;
 }
@@ -193,224 +163,4 @@ footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 0;
-}
-
-
-@media (max-width: 768px) {
-    header {
-        position: static;
-        padding: 10px 0;
-    }
-
-    #contenedor {
-        grid-template-columns: 1fr;
-        gap: 5%;
-        padding: 10px 5px;
-    }
-
-    .caja1,
-    .caja2,
-    .caja3,
-    .caja4,
-    .caja5 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        margin: 5px 0;
-    }
-
-    button {
-        margin-left: 0;
-        width: 100%;
-        padding: 10px;
-    }
-
-    .Titulo {
-        font-size: 1.5em;
-        margin-top: 5%;
-    }
-
-    #main-content {
-        font-size: 0.9em;
-        padding: 2% 5% 5% 5%;
-        margin-top: 0;
-    }
-
-    #contenedor2 {
-        grid-template-columns: 1fr;
-        margin-left: 0;
-        width: 100%;
-        gap: 5%;
-        padding: 5%;
-    }
-
-    #ubicaciones {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        margin: 10px 0;
-        padding: 3%;
-    }
-
-    #ubicaciones2 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        padding: 0;
-    }
-
-    iframe {
-        width: 100%;
-        height: 300px;
-    }
-
-    #planes-container {
-        grid-template-columns: 1fr;
-        gap: 2%;
-    }
-
-    .plan {
-        padding: 3%;
-    }
-
-    #planes h1 {
-        font-size: 1.3em;
-    }
-
-    .ubicacion-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .boton {
-        width: 100%;
-    }
-
-    p {
-        margin: 5px 0;
-    }
-}
-
-/* Teléfonos muy pequeños (hasta 480px) */
-@media (max-width: 480px) {
-    header {
-        position: static;
-        font-size: 0.7em;
-        padding: 5px 0;
-    }
-
-    #contenedor {
-        grid-template-columns: 1fr;
-        gap: 3%;
-        padding: 5px 2px;
-    }
-
-    .caja1 img {
-        width: 40px;
-        height: auto;
-    }
-
-    button {
-        padding: 7px 10px;
-        font-size: 0.8em;
-    }
-
-    .Titulo {
-        font-size: 1.2em;
-        margin-top: 10%;
-        padding: 5% 0;
-    }
-
-    #main-content {
-        font-size: 0.8em;
-        padding: 5% 3% 5% 3%;
-        line-height: 1.5;
-    }
-
-    #descripcion {
-        margin-bottom: 5%;
-    }
-
-    #contenedor2 {
-        padding: 3%;
-        gap: 3%;
-    }
-
-    #ubicaciones {
-        padding: 2%;
-        margin: 5px 0;
-    }
-
-    #ubicacion h1 {
-        font-size: 1.2em;
-        margin-bottom: 15px;
-    }
-
-    .ubicacion-item {
-        margin-bottom: 15px;
-        font-size: 0.85em;
-    }
-
-    iframe {
-        width: 100%;
-        height: 250px;
-    }
-
-    #planes {
-        padding: 3%;
-    }
-
-    #planes h1 {
-        font-size: 1.1em;
-        margin-bottom: 3%;
-    }
-
-    #planes-container {
-        gap: 1%;
-    }
-
-    .plan {
-        padding: 2%;
-    }
-
-    .plan h2 {
-        font-size: 1em;
-        margin: 5px 0;
-    }
-
-    .plan p {
-        font-size: 0.85em;
-        margin: 3px 0;
-    }
-
-    footer {
-        padding: 5px 0;
-        font-size: 0.8em;
-    }
-
-    footer p {
-        margin: 0;
-    }
-}
-
-/* Orientación horizontal en dispositivos pequeños */
-@media (max-width: 768px) and (orientation: landscape) {
-    header {
-        padding: 5px 0;
-    }
-
-    #contenedor {
-        gap: 3%;
-    }
-
-    .Titulo {
-        margin-top: 2%;
-    }
-
-    #main-content {
-        padding: 2% 5%;
-        font-size: 0.8em;
-    }
-
-    #planes-container {
-        grid-template-columns: 1fr 1fr;
-    }
 }
