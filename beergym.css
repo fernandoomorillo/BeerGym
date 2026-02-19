@@ -347,3 +347,62 @@
         font-size: 14px;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;     
+        gap: 30px;                  
+        padding: 30px;              
+        width: 90%;                 
+    }
+
+    .columna {
+        width: 100%;               
+    }
+
+    .titulo {
+        font-size: 22px;             
+        padding: 10px 40px;         
+        margin: 30px auto 20px auto;
+    }
+
+    .bloque {
+        padding: 15px 25px;          
+    }
+
+    .dia {
+        font-size: 17px;             
+    }
+
+    .texto {
+        font-size: 12px;             
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor {
+        padding: 20px;               
+        gap: 20px;                   
+    }
+
+    .titulo {
+        font-size: 18px;              
+        padding: 8px 25px;
+        margin: 20px auto 15px auto;
+    }
+
+    .bloque {
+        padding: 12px 15px;           
+    }
+
+    .dia {
+        font-size: 16px;
+        margin-bottom: 4px;           
+    }
+
+    .texto {
+        font-size: 11px;
+        letter-spacing: 0.3px;
+    }
+}
