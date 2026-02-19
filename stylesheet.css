@@ -32,7 +32,7 @@ header {
 #contenedor {
     display: grid;
     gap: 10%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     align-items: center;
     padding: 3px 10px;
@@ -185,6 +185,10 @@ footer {
     padding: 10px 0;
 }
 
+/* ... todo tu CSS anterior se mantiene igual hasta las media queries ... */
+
+/* Media Queries para responsive */
+
 @media screen and (max-width: 1024px) {
     body {
         padding-top: 60px; 
@@ -199,7 +203,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     body {
-        padding-top: 110px; 
+        padding-top: 110px; /* Ajusta si el header queda más alto */
     }
 
     #contenedor {
@@ -211,18 +215,22 @@ footer {
         padding: 5px 10px;
     }
 
+    /* Logo a la izquierda */
     .caja1 {
-        order: 1; 
+        order: 1;
     }
 
-    .caja5 {
-        order: 2; 
+    /* Login a la derecha (ahora es caja6) */
+    .caja6 {
+        order: 2;
     }
 
+    /* Todos los enlaces de navegación (incluyendo la nueva caja5) van en la segunda fila */
     .caja2,
     .caja3,
-    .caja4 {
-        order: 3; 
+    .caja4,
+    .caja5 {
+        order: 3;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -233,11 +241,13 @@ footer {
 
     .caja2 p,
     .caja3 p,
-    .caja4 p {
+    .caja4 p,
+    .caja5 p {
         margin: 0;
         white-space: nowrap;
     }
 
+    /* Resto de estilos para móviles (secciones, etc.) */
     #planes-container {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -278,12 +288,14 @@ footer {
 
 @media screen and (max-width: 480px) {
     body {
-        padding-top: 120px;
+        padding-top: 140px; /* Aumentado porque los enlaces en columna ocupan más */
     }
 
+    /* Enlaces de navegación en columna (incluyendo caja5) */
     .caja2,
     .caja3,
-    .caja4 {
+    .caja4,
+    .caja5 {
         flex-direction: column;
         align-items: center;
         gap: 5px;
@@ -291,7 +303,8 @@ footer {
 
     .caja2 p,
     .caja3 p,
-    .caja4 p {
+    .caja4 p,
+    .caja5 p {
         white-space: normal;
     }
 
