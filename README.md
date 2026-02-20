@@ -1,6 +1,6 @@
 # Beergym 🍺
 
-Mi compañero Marcos Peña y yo hemos realizado una página web sobre un gimnasio, la hemos desarrollado en HTML y en CSS
+Mi compañero Marcos Peña y yo Fernando Pérez hemos realizado una página web sobre un gimnasio, la hemos desarrollado en HTML y en CSS
 
 ## Figma
 
