@@ -15,7 +15,7 @@ Cuando terminamos el figma, ahora pasamos todas las ideas a HTML y CSS, el desar
 
 ## Presentaciones de Google
 
-[Presentación](https://docs.google.com/presentation/d/16ioyJO0Xs0ZHBJITelyZRqRyalKp9RS7/edit?usp=sharing&ouid=118213464305777551676&rtpof=true&sd=true)
+[Presentación](https://docs.google.com/presentation/d/16ioyJO0Xs0ZHBJITelyZRqRyalKp9RS7/edit?slide=id.p1#slide=id.p1)
 
 ## Herramientas utilizadas
 - Figma
