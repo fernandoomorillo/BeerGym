@@ -3,6 +3,7 @@
 Mi compañero Marcos Peña y yo hemos realizado una página web sobre un gimnasio, la hemos desarrollado en HTML y en CSS
 
 ## Figma
+
 Primero hicimos un figma para decidir como ibamos a estructurar la página web y decidimos la gama de colores.
 [Figma](https://www.figma.com/design/bLl2HtdocRmVYsgVFTM0Oh/Media-Query---Gym?node-id=0-1&p=f&t=vCChQyTcoxRBZOJM-0)
 
@@ -12,7 +13,12 @@ Primero hicimos un figma para decidir como ibamos a estructurar la página web y
 ## Desarrollo en HTML y CSS
 Cuando terminamos el figma, ahora pasamos todas las ideas a HTML y CSS, el desarrollo se realizó en Visual Studio Code.
 
+## Presentaciones de Google
+
+[Presentación](https://docs.google.com/presentation/d/16ioyJO0Xs0ZHBJITelyZRqRyalKp9RS7/edit?usp=sharing&ouid=118213464305777551676&rtpof=true&sd=true)
+
 ## Herramientas utilizadas
 - Figma
 - Visual Studio Code
 - Draw.io
+- Presentaciones de Google
